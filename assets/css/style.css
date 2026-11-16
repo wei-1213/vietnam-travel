@@ -1,0 +1,196 @@
+:root{--paper:#faf7ef;--ink:#193e34;--muted:#52695e;--line:#d9dfd3;--orange:#b4492e;--yellow:#f0c95a;--white:#fffef9;--radius:20px}*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;line-height:1.8}a{color:inherit;text-underline-offset:5px}img{display:block;width:100%;height:auto}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid var(--orange);outline-offset:6px}.skip{position:fixed;top:-100px;left:16px;z-index:99;padding:12px 20px;background:var(--yellow)}.skip:focus{top:12px}.wrap{width:min(1120px,calc(100% - 64px));margin:auto}.site-header{background:var(--paper);border-bottom:1px solid var(--line)}.header-inner{min-height:82px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{text-decoration:none;font-size:19px;font-weight:800;letter-spacing:2px;display:flex;align-items:center;gap:12px}.brand-mark{width:30px;height:30px;border:1px solid var(--ink);border-radius:50%;display:grid;place-items:center;background:var(--yellow);font-size:16px;letter-spacing:0}.header-nav{display:flex;gap:28px;font-size:14px}.header-nav a{text-decoration:none}.header-nav a:hover{text-decoration:underline}.eyebrow{font-size:12px;letter-spacing:3px;text-transform:uppercase;font-weight:700;color:var(--orange);margin:0 0 18px}.hero{display:grid;grid-template-columns:1fr 1fr;gap:54px;align-items:center;padding:64px 0 40px}.hero h1{font-size:clamp(38px,4.8vw,65px);line-height:1.3;letter-spacing:-2px;margin:0 0 26px;font-weight:850}.hero h1 span{display:block}.hero p.lead{font-size:17px;max-width:470px;color:var(--muted);margin-bottom:28px}.hero-photo{margin:0;position:relative}.hero-photo img{height:440px;object-fit:cover;border-radius:100px 20px 20px 20px}.photo-label{position:absolute;bottom:22px;left:22px;background:var(--white);border-radius:100px;padding:7px 18px;font-size:13px;box-shadow:0 3px 15px #0001}.button{display:inline-flex;align-items:center;justify-content:center;gap:18px;padding:12px 23px;background:var(--ink);color:var(--white);border:1px solid var(--ink);border-radius:100px;text-decoration:none;font-size:14px;font-weight:700}.button:hover{background:#2d5947}.button.light{background:transparent;color:var(--ink)}.hero-note{font-size:12px;color:var(--muted);margin-top:18px}.region-nav{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:22px 0;margin:16px 0 22px;gap:20px}.region-nav p{margin:0;font-size:14px}.pills{display:flex;gap:10px;flex-wrap:wrap}.pills a{display:inline-block;border:1px solid #aebdaf;border-radius:100px;padding:8px 26px;font-size:14px;text-decoration:none}.pills a:hover,.pills a[aria-current="location"]{background:var(--ink);color:var(--white)}.region{padding:46px 0 22px;scroll-margin-top:20px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:25px}.section-heading h2{font-size:32px;line-height:1.3;margin:0}.section-heading .index{color:var(--orange);font-size:13px;display:block;letter-spacing:2px;margin-bottom:9px}.section-heading p{margin:0;font-size:14px;color:var(--muted)}.card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.destination{border:1px solid var(--line);background:var(--white);border-radius:var(--radius);overflow:hidden;position:relative}.destination-link{display:block;text-decoration:none;height:100%}.destination:has(.destination-link):hover{box-shadow:0 10px 30px #193e3412}.destination:has(.destination-link:focus-visible){outline:3px solid var(--orange);outline-offset:5px}.destination-link:focus-visible{outline:0}.card-media{height:270px;position:relative;overflow:hidden}.card-media img{height:100%;object-fit:cover;transition:transform .25s}.destination-link:hover img{transform:scale(1.025)}.status{position:absolute;top:16px;left:16px;border-radius:100px;background:var(--white);color:var(--muted);padding:4px 12px;font-size:12px;font-weight:700}.status.ready{background:var(--yellow);color:var(--ink)}.card-content{padding:24px 28px 26px}.card-title{display:flex;justify-content:space-between;gap:14px;align-items:center}.card-title h3{font-size:25px;margin:0}.vn{display:block;font-weight:400;font-size:14px;color:var(--muted);letter-spacing:.4px}.arrow{font-size:24px;color:var(--orange)}.card-content p{font-size:15px;color:var(--muted);margin:14px 0 20px}.tags{list-style:none;display:flex;gap:8px;flex-wrap:wrap;padding:0;margin:0}.tags li{border-radius:6px;background:#eef1e8;padding:3px 10px;font-size:12px}.family-banner{margin:64px 0 40px;padding:36px 40px;border-radius:var(--radius);background:#e9eedf;display:flex;align-items:center;justify-content:space-between;gap:30px}.family-banner h2{font-size:24px;margin:0 0 8px}.family-banner p{margin:0;color:var(--muted);font-size:15px}.sources{padding:28px 0 48px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);overflow-wrap:anywhere}.sources h2{font-size:21px;color:var(--ink)}.sources summary{cursor:pointer;font-weight:700;color:var(--ink);padding:8px 0}.credits{padding-left:22px}.credits li{margin:10px 0}.site-footer{border-top:1px solid var(--line);padding:25px 0;font-size:12px;color:var(--muted)}.footer-inner{display:flex;justify-content:space-between;gap:16px}.breadcrumb{font-size:13px;padding-top:28px;color:var(--muted)}.detail-hero{padding-top:35px}.detail-hero h1{font-size:62px;letter-spacing:0}.detail-hero h1 .vn{font-size:26px;margin-top:8px}.detail-hero .hero-photo img{border-radius:var(--radius);height:390px}.detail-nav{display:flex;gap:12px 24px;flex-wrap:wrap;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:18px 0;font-size:14px}.content-section{padding-top:56px;scroll-margin-top:24px}.content-section>h2{font-size:30px;margin:0 0 12px}.section-intro{color:var(--muted);margin:0 0 28px}.experience{display:grid;grid-template-columns:42% 1fr;background:var(--white);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin:24px 0}.experience figure{margin:0;background:#eef1e8;display:flex;flex-direction:column}.experience img{height:290px;object-fit:cover}.experience figcaption{font-size:11px;color:var(--muted);padding:12px 18px;overflow-wrap:anywhere}.experience-body{padding:28px 32px}.experience-body h3{font-size:25px;margin:0 0 12px}.experience-body p{margin:12px 0;font-size:15px}.experience-body dl{margin:18px 0}.experience-body dt{font-weight:700;font-size:13px;color:var(--orange);margin-top:14px}.experience-body dd{margin:4px 0;font-size:14px}.experience-body .source-link{font-size:12px}.itinerary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;list-style:none;padding:0;counter-reset:stop}.itinerary li{border-top:2px solid #c5cfbc;padding:22px 8px 8px 0}.itinerary strong{display:block;font-size:19px;margin-bottom:12px}.itinerary p{font-size:14px;color:var(--muted)}.step{font-size:12px;letter-spacing:1px;color:var(--orange);display:block;margin-bottom:10px}.note{padding:20px 24px;border-left:4px solid var(--yellow);background:#f3eedc;font-size:14px}.tips-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px}.tip-panel{border:1px solid var(--line);border-radius:var(--radius);padding:26px}.tip-panel h3{margin-top:0}.tip-panel ul{padding-left:20px;font-size:14px}.tip-panel li{margin-bottom:10px}.other-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:25px 0 50px}.other-nav a{border-bottom:1px solid var(--line);padding:12px 0;font-size:14px}.other-nav small{display:block;color:var(--muted)}
+@media(min-width:1600px){.wrap{width:1200px}}@media(max-width:760px){.wrap{width:calc(100% - 36px)}.header-inner{min-height:74px;gap:16px}.brand{font-size:16px;letter-spacing:1px}.header-nav{gap:16px;font-size:12px}.hero{grid-template-columns:1fr;gap:28px;padding:38px 0 26px}.hero h1{font-size:46px}.hero h1 span{display:inline}.hero p.lead{font-size:16px}.hero-photo img{height:310px;border-radius:55px 16px 16px 16px}.region-nav{align-items:flex-start;flex-direction:column;gap:12px}.pills{width:100%}.pills a{padding:8px 22px}.region{padding-top:32px}.section-heading{align-items:start;flex-direction:column;gap:10px}.section-heading h2{font-size:28px}.card-grid{grid-template-columns:1fr;gap:22px}.card-media{height:240px}.card-content{padding:21px 23px}.family-banner{padding:26px;align-items:start;flex-direction:column;margin-top:40px}.footer-inner{flex-direction:column;gap:6px}.experience{grid-template-columns:1fr}.experience img{height:240px}.experience-body{padding:24px}.itinerary,.tips-grid{grid-template-columns:1fr}.itinerary{gap:4px}.detail-hero h1{font-size:48px}.detail-hero .hero-photo img{height:300px}.content-section{padding-top:38px}.other-nav{grid-template-columns:1fr}.content-section>h2{font-size:27px}.header-nav .optional{display:none}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+/* 首頁地圖與第一次出發總覽：共用設計，所有尺寸皆保留文字導覽。 */
+.home-hero{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:52px;padding-top:40px}.home-hero>*{min-width:0}.home-hero .lead{margin-bottom:24px}.text-link{font-size:13px;display:inline-block;margin:16px 0 0 17px}.hero-glimpses{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:28px}.hero-glimpses figure{margin:0;position:relative;overflow:hidden;border-radius:14px}.hero-glimpses img{height:130px;object-fit:cover}.hero-glimpses figcaption{position:absolute;left:0;bottom:0;width:100%;background:linear-gradient(transparent,#102a22d9);padding:24px 12px 8px;color:white;font-size:12px}.map-panel{margin:0;padding:20px 20px 16px;border:1px solid var(--line);border-radius:24px;background:#eff1e6}.map-topline{display:flex;justify-content:space-between;font-size:12px;letter-spacing:2px;font-weight:700}.map-north{color:var(--orange)}.map-frame{position:relative;max-width:400px;margin:0 auto}.map-frame>img{width:100%;height:auto}.map-points{position:absolute;inset:0;width:100%;height:100%;overflow:visible}.map-points a rect{fill:var(--white);stroke:#d0d9c7;stroke-width:1}.map-points a{text-decoration:none}.map-points a:hover rect,.map-points a:focus-visible rect{fill:var(--yellow);stroke:var(--ink);stroke-width:2}.map-points a:focus-visible{outline:none}.map-place{fill:var(--ink);font-size:18px;font-weight:700}.map-state{fill:#52695e;font-size:12px}.map-leader{fill:none;stroke:var(--orange);stroke-width:1.5}.map-pin{fill:var(--yellow);stroke:var(--white);stroke-width:2}.map-pin.active{fill:var(--orange)}.map-water{fill:#849985;font-size:12px;letter-spacing:4px}.map-panel>figcaption{font-size:12px;line-height:1.6;text-align:center;margin-top:4px}.map-panel small{display:block;font-size:10px;color:var(--muted);margin-top:6px}.travel-overview{margin:26px 0 42px;padding:34px;border:1px solid var(--line);background:var(--white);border-radius:24px;scroll-margin-top:24px}.travel-overview .section-heading{align-items:center;margin-bottom:20px}.travel-overview h2{font-size:32px}.travel-overview .eyebrow{margin-bottom:8px}.checked{font-size:11px;color:var(--muted);white-space:nowrap}.guide-intro{font-size:15px;color:var(--muted);max-width:860px;margin:0 0 20px}.quick-facts{display:flex;gap:12px 24px;flex-wrap:wrap;font-size:12px;color:var(--ink);padding-bottom:24px;border-bottom:1px solid var(--line)}.quick-facts span:before{content:'•';color:var(--orange);margin-right:8px}.overview-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:28px}.info-card{min-width:0}.info-card+.info-card{border-left:1px solid var(--line);padding-left:26px}.info-number{display:block;color:var(--orange);font-size:10px;letter-spacing:1.5px;font-weight:700}.info-card h3{font-size:20px;margin:8px 0 14px}.info-card p{font-size:13px;color:var(--muted);margin:12px 0}.flight-list,.phrase-list{margin:18px 0}.flight-list>div,.phrase-list>div{display:flex;justify-content:space-between;align-items:center;gap:8px;padding:10px 0;border-bottom:1px dashed var(--line)}.flight-list dt{font-size:12px}.flight-list dd{font-size:12px;font-weight:700;margin:0}.phrase-list dt{font-size:17px;font-weight:700}.phrase-list dd{font-size:13px;margin:0}.info-card .rate-number{font-size:24px;font-weight:800;color:var(--ink);margin:20px 0}.rate-number span{font-weight:400;color:var(--orange);padding:0 3px}.info-card .info-small,.info-small{font-size:11px;line-height:1.9;color:var(--muted)}.info-card .info-source,.info-source{font-size:10px;line-height:1.9;color:var(--muted);overflow-wrap:anywhere}.budget-panel{background:#eef1e7;border-radius:16px;padding:26px;margin-top:30px}.budget-heading{display:flex;gap:24px;align-items:center;justify-content:space-between}.budget-heading h3{font-size:23px;margin:7px 0}.budget-heading p{font-size:12px;color:var(--muted);margin:0}.budget-total{text-align:right;white-space:nowrap}.budget-total span,.budget-total small{display:block;font-size:11px;color:var(--muted)}.budget-total strong{display:block;font-size:30px;line-height:1.5}.budget-items{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;margin:24px 0;border-top:1px solid #cfd6c5;border-bottom:1px solid #cfd6c5;padding:20px 0}.budget-items span,.budget-items small{display:block;font-size:11px;color:var(--muted)}.budget-items strong{display:block;font-size:14px;margin:5px 0}.destination{scroll-margin-top:24px}
+@media(max-width:1000px){.overview-grid{gap:18px}.info-card+.info-card{padding-left:18px}.flight-list>div{align-items:start;flex-direction:column;gap:0}.home-hero{gap:28px}.text-link{margin-left:0;display:block}.budget-heading{align-items:start;flex-direction:column}.budget-total{text-align:left}.budget-items{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.home-hero{grid-template-columns:1fr;padding-top:34px}.home-hero h1{font-size:44px}.hero-glimpses img{height:125px}.map-panel{padding:18px 10px 16px}.map-frame{max-width:390px}.map-topline{padding:0 8px}.travel-overview{padding:24px 20px;margin-top:12px}.travel-overview .section-heading{align-items:start;gap:12px}.travel-overview h2{font-size:28px}.guide-intro{font-size:14px}.quick-facts{gap:7px 12px;flex-direction:column}.overview-grid{grid-template-columns:1fr;gap:24px}.info-card+.info-card{padding-left:0;padding-top:24px;border-left:0;border-top:1px solid var(--line)}.flight-list>div{flex-direction:row}.flight-list dt,.flight-list dd{font-size:13px}.info-card .info-small,.info-small{font-size:12px}.info-card .info-source,.info-source{font-size:11px}.budget-panel{padding:20px 16px}.budget-heading h3{font-size:21px}.budget-total strong{font-size:29px}.budget-items{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px 10px}.map-place{font-size:19px}.map-state{font-size:13px}.header-nav{gap:12px}.header-inner{gap:12px}.brand{white-space:nowrap}.header-nav a{white-space:nowrap}}
+
+/* 越南口袋指南：以照片、票券、換匯與對話卡建立閱讀層次。 */
+.travel-overview{padding:0;background:#f0eee4;overflow:hidden;border:0;border-radius:26px;margin-top:54px}
+.travel-overview .guide-cover{position:relative;min-height:300px;display:flex;align-items:center;isolation:isolate;background:#193e34}
+.travel-overview .guide-cover>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%;z-index:-2}
+.travel-overview .guide-cover:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,47,39,.96) 0%,rgba(13,47,39,.80) 36%,rgba(13,47,39,.12) 85%);z-index:-1}
+.travel-overview .guide-cover-copy{padding:38px 42px;max-width:660px;color:#fffef9}
+.travel-overview .guide-cover-copy .eyebrow{color:#f0d279;font-size:11px;margin:0 0 14px}
+.travel-overview .guide-cover h2{font-size:38px;line-height:1.5;letter-spacing:1px;margin:0 0 14px}
+.travel-overview .guide-cover h2 span{font-size:26px;font-weight:400;letter-spacing:2px}
+.travel-overview .guide-cover-copy>p:last-child{font-size:14px;line-height:1.9;margin:0;color:#f3f1df}
+.travel-overview .guide-photo-label{position:absolute;bottom:20px;right:24px;background:rgba(255,254,249,.94);border-radius:50px;padding:5px 13px;font-size:11px;color:var(--ink)}
+.travel-overview .guide-body{padding:30px}
+.travel-overview .guide-welcome{display:flex;align-items:center;gap:30px;justify-content:space-between;margin-bottom:20px}
+.travel-overview .guide-intro{max-width:760px;font-size:14px;margin:0;line-height:1.9}
+.travel-overview .checked{font-size:10px;text-align:right;line-height:1.8;border-left:1px solid #c9d1c2;padding-left:20px}
+.travel-overview .checked time{font-size:12px;font-weight:700;letter-spacing:1px}
+.travel-overview .quick-facts{padding:0;border:0;gap:8px;margin-bottom:26px}
+.travel-overview .quick-facts span{background:#fffdf5;padding:6px 13px;border-radius:50px;font-size:11px}
+.travel-overview .quick-facts span:before{content:none}
+.travel-overview .overview-grid{gap:18px;margin-top:0;align-items:stretch}
+.travel-overview .info-card,.travel-overview .info-card+.info-card{padding:24px;border:0;border-radius:18px;background:#fffef9;display:flex;flex-direction:column;box-shadow:0 3px 10px #193e3405;overflow:hidden}
+.travel-overview .guide-card-top{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}
+.travel-overview .info-number{font-size:10px;letter-spacing:1px}
+.travel-overview .guide-icon{display:grid;place-items:center;width:39px;height:39px;border-radius:50%;background:#f3eedf;flex-shrink:0}
+.travel-overview .guide-icon svg{width:23px;height:23px;stroke:currentColor;stroke-width:1.5;fill:none;stroke-linejoin:round;stroke-linecap:round}
+.travel-overview .info-card h3{font-size:21px;line-height:1.5;margin:0 0 6px}
+.travel-overview .info-card>p{font-size:13px;line-height:1.9}
+.travel-overview .flight-list{margin:10px 0 16px;border-top:1px dashed #c8d1c0;border-bottom:1px dashed #c8d1c0;padding:5px 0}
+.travel-overview .flight-list>div{display:flex;align-items:start;flex-direction:column;gap:4px;border-bottom:0;padding:10px 0}
+.travel-overview .flight-list dt{font-size:12px;color:var(--muted)}
+.travel-overview .flight-list dd{font-size:19px;color:var(--ink);font-weight:750}
+.travel-overview .info-card .info-source{margin-top:auto;padding-top:12px;border-top:1px solid #e2e6d9;font-size:10px}
+.travel-overview .money-card{background:#214b3e;color:#fffef9;position:relative}
+.travel-overview .money-card .info-number{color:#f0d279}
+.travel-overview .money-card .guide-icon{background:#396353;color:#f0d279}
+.travel-overview .money-card>p,.travel-overview .money-card .info-small,.travel-overview .money-card .info-source{color:#e1e8dd}
+.travel-overview .money-card .info-source{border-color:#577565}
+.travel-overview .exchange-display{padding:20px 0 23px;margin:10px 0 4px;border-top:1px solid #577565;border-bottom:1px solid #577565}
+.travel-overview .exchange-display>span:first-child{font-size:12px;color:#e1e8dd}
+.travel-overview .money-card .rate-number{font-size:65px;line-height:1.2;letter-spacing:-2px;color:#f8d879;margin:8px 0 10px}
+.travel-overview .rate-number small{font-size:19px;letter-spacing:0;font-weight:400}
+.travel-overview .exchange-tag{font-size:10px;letter-spacing:1px;color:#e1e8dd}
+.travel-overview .language-card{background:#fae8b3}
+.travel-overview .language-card .guide-icon{background:#f4d985}
+.travel-overview .phrase-list{margin:10px 0 8px;display:flex;flex-direction:column;gap:11px}
+.travel-overview .phrase-list>div{padding:11px 13px;border:0;background:#fff9e8;border-radius:12px 12px 12px 3px;align-items:start;flex-direction:column;gap:2px}
+.travel-overview .phrase-list>div:nth-child(2){margin-left:18px;border-radius:12px 12px 3px 12px;background:#f0d581}
+.travel-overview .phrase-list dt{font-size:18px}
+.travel-overview .phrase-list dd{font-size:12px;color:#5b573c}
+.travel-overview .language-card .info-source{border-color:#ddc98f}
+.travel-overview .info-card .info-small{font-size:11px;margin-top:12px}
+.travel-overview .budget-panel{margin-top:22px;border-radius:18px;padding:30px;background:#fffef9;border:1px solid #d9dfd3;position:relative}
+.travel-overview .budget-heading{align-items:center}
+.travel-overview .budget-heading h3{font-size:24px;margin:10px 0}
+.travel-overview .budget-total{text-align:right;background:#edf2e7;border-radius:14px;padding:17px 24px;min-width:290px}
+.travel-overview .budget-total strong{font-size:32px;color:var(--ink)}
+.travel-overview .budget-items{border:0;padding:0;margin:24px 0;gap:10px}
+.travel-overview .budget-items>div{background:#f6f5ee;padding:14px 10px;border-radius:10px;border-top:3px solid #d9dfca}
+.travel-overview .budget-items>div:first-child{border-top-color:var(--orange)}
+.travel-overview .budget-items strong{font-size:15px;white-space:nowrap}
+.travel-overview .budget-items small{font-size:10px}
+.travel-overview .budget-details{border-top:1px dashed #ced7c4;padding-top:14px;font-size:12px}
+.travel-overview .budget-details summary{cursor:pointer;padding:5px 0;font-size:12px;font-weight:700}
+.travel-overview .budget-details .info-small{font-size:12px}
+.travel-overview .budget-panel>.info-source{margin:14px 0 0;font-size:11px}
+@media(max-width:1000px){.travel-overview .guide-body{padding:24px}.travel-overview .info-card,.travel-overview .info-card+.info-card{padding:20px}.travel-overview .info-card h3{font-size:19px}.travel-overview .budget-heading{align-items:start}.travel-overview .budget-total{text-align:left}.travel-overview .budget-items{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:760px){.travel-overview{margin-top:34px;border-radius:20px}.travel-overview .guide-cover{min-height:340px;align-items:start}.travel-overview .guide-cover:after{background:linear-gradient(90deg,rgba(13,47,39,.9),rgba(13,47,39,.35))}.travel-overview .guide-cover-copy{padding:27px 22px 65px}.travel-overview .guide-cover h2{font-size:30px}.travel-overview .guide-cover h2 span{font-size:21px;letter-spacing:0}.travel-overview .guide-cover-copy>p:last-child{font-size:13px}.travel-overview .guide-cover-copy br:last-child{display:none}.travel-overview .guide-photo-label{bottom:17px;right:18px}.travel-overview .guide-body{padding:18px}.travel-overview .guide-welcome{flex-direction:column;gap:14px;align-items:start}.travel-overview .checked{border:0;padding:0;text-align:left}.travel-overview .checked br{display:none}.travel-overview .checked time{margin-left:8px}.travel-overview .quick-facts{flex-direction:row;gap:7px;margin-bottom:20px}.travel-overview .quick-facts span{font-size:10px;padding:5px 9px}.travel-overview .overview-grid{gap:16px}.travel-overview .info-card,.travel-overview .info-card+.info-card{padding:22px}.travel-overview .info-card h3{font-size:22px}.travel-overview .flight-list>div{flex-direction:row;align-items:center;justify-content:space-between;gap:6px}.travel-overview .flight-list dd{font-size:16px}.travel-overview .money-card .rate-number{font-size:68px}.travel-overview .info-card .info-small,.travel-overview .info-card .info-source{font-size:12px}.travel-overview .budget-panel{padding:22px 18px}.travel-overview .budget-heading{gap:18px}.travel-overview .budget-heading h3{font-size:22px}.travel-overview .budget-total{width:100%;min-width:0;padding:14px 16px}.travel-overview .budget-total strong{font-size:29px}.travel-overview .budget-items{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.travel-overview .budget-items>div{padding:13px 9px}.travel-overview .budget-items strong{font-size:14px}}
+.travel-overview .info-card.money-card{background:#214b3e;color:#fffef9}
+.travel-overview .info-card.language-card{background:#fae8b3}
+
+
+/* 景點圖片與文字各自保持自然高度，避免照片欄整欄填色。 */
+.experience{align-items:start}.experience>figure{background:transparent}.experience>figure>img{height:auto;aspect-ratio:4 / 3;object-fit:cover}.experience>figure>figcaption{background:transparent}
+
+/* 圖片來源頁：低調的分組文字清單。 */
+.credits-page main.wrap{max-width:900px}
+.credits-page .credits-intro{padding:40px 0 22px}
+.credits-page .credits-intro h1{font-size:30px;line-height:1.5;margin:0 0 8px}
+.credits-page .credits-intro p{font-size:14px;color:var(--muted);margin:0}
+.credits-page .credits-jump{display:flex;flex-wrap:wrap;gap:8px 22px;border-bottom:1px solid var(--line);padding:0 0 22px}
+.credits-page .credits-jump a{padding:0;border:0;border-radius:0;background:none;font-size:13px;text-decoration:underline}
+.credits-page .credits-jump a:hover{background:none;color:var(--orange)}
+.credits-page .credit-section{padding:27px 0 0;scroll-margin-top:20px}
+.credits-page .credit-section .section-heading{align-items:center;margin-bottom:9px}
+.credits-page .credit-section .section-heading h2{font-size:20px}
+.credits-page .credit-section .vn{display:inline;font-size:13px;margin-left:8px}
+.credits-page .credit-section .section-heading>a{font-size:12px;color:var(--muted)}
+.credits-page .credit-row{display:grid;grid-template-columns:minmax(150px,1fr) 2fr;gap:20px;align-items:center;padding:13px 0;border-bottom:1px solid var(--line)}
+.credits-page .credit-row h3{font-size:14px;font-weight:600;margin:0;line-height:1.6}
+.credits-page .credit-usage{font-size:11px;color:var(--muted);margin:3px 0 0;display:block}
+.credits-page .credit-author{font-size:12px;color:var(--muted);line-height:1.8;margin:0;overflow-wrap:anywhere}
+.credits-page .credit-notes{border-top:1px solid var(--line);padding:25px 0 0;margin-top:36px}
+.credits-page .credit-notes h2{font-size:16px;margin:0 0 10px}
+.credits-page .credit-notes p{font-size:12px;color:var(--muted);line-height:1.9}
+.credits-page .credit-notes>div+div{margin-top:24px}
+.credits-page .credits-back{font-size:13px;margin:28px 0 40px}
+@media(max-width:760px){.credits-page .credits-intro{padding-top:28px}.credits-page .credits-intro h1{font-size:27px}.credits-page .credit-section .section-heading{align-items:start;gap:8px}.credits-page .credit-section .vn{margin-left:0;display:block;margin-top:6px}.credits-page .credit-row{grid-template-columns:1fr;gap:6px;padding:14px 0}.credits-page .credit-author{font-size:13px}}
+/* 目的地頁末導覽：單欄圓形頭像清單。 */
+.other-nav{display:flex;flex-direction:column;gap:0;margin:24px 0 34px}
+.other-nav .next-destination{display:flex;align-items:center;gap:20px;min-height:104px;padding:16px 10px;border-bottom:1px solid var(--line);text-decoration:none;transition:background-color .2s}
+.other-nav .next-destination:hover{background:#edf1e7}
+.other-nav .next-avatar{width:72px;height:72px;flex:0 0 72px;border-radius:50%;object-fit:cover;border:1px solid #dce2d4}
+.other-nav .next-label{display:flex;flex:1;min-width:0;flex-direction:column;gap:3px}
+.other-nav .next-name{font-size:20px;font-weight:700;line-height:1.5}
+.other-nav .next-vietnamese{font-size:13px;color:var(--muted);line-height:1.6}
+.other-nav .next-arrow{font-size:23px;color:var(--orange);margin-left:auto;padding:0 12px}
+@media(max-width:760px){.other-nav .next-destination{gap:16px;padding:14px 4px;min-height:90px}.other-nav .next-avatar{width:60px;height:60px;flex-basis:60px}.other-nav .next-name{font-size:18px}.other-nav .next-vietnamese{font-size:12px}.other-nav .next-arrow{padding:0 5px;font-size:21px}}
+
+/* 目的地封面圖說置於圖下，保留完整風景。 */
+.detail-hero .photo-label{position:static;display:block;margin:0;padding:10px 2px 0;background:none;border-radius:0;box-shadow:none;color:var(--muted);font-size:12px;line-height:1.8}
+
+/* 圖說統一標記與字級，手機維持清楚可讀。 */
+figure figcaption{font-size:14px;line-height:1.8}
+.hero-glimpses figcaption{font-size:14px}
+.experience figcaption{font-size:14px;line-height:1.8}
+.detail-hero .photo-label{font-size:14px;line-height:1.8}
+.map-panel>figcaption{font-size:14px;line-height:1.8}
+.travel-overview .guide-photo-label{font-size:14px}
+
+/* Keep the beach visible in the Phu Quoc homepage card. */
+.card-media img[src$='phu-quoc-selected-cover.jpg']{object-position:center bottom}
+
+/* Quiet, solid-color introduction for the travel overview. */
+.travel-overview .guide-cover{background:#e8eddf;min-height:260px;align-items:center}
+.travel-overview .guide-cover:after{display:none}
+.travel-overview .guide-cover-copy{color:var(--ink);max-width:760px;padding:34px 42px}
+.travel-overview .guide-cover-copy .eyebrow{color:var(--muted)}
+.travel-overview .guide-cover-copy>p:last-child{color:var(--muted)}
+@media(max-width:760px){.travel-overview .guide-cover{min-height:0}.travel-overview .guide-cover-copy{padding:28px 22px}}
+
+/* Tonal sage palette with a quiet national-flag backdrop. */
+.travel-overview{background:#edf2ed}
+.travel-overview .guide-cover{background:#f6f5ef}
+.travel-overview .guide-cover:after{display:block;background:url('../images/vietnam-flag.svg') center right/cover no-repeat;opacity:.09;z-index:-1;pointer-events:none}
+.travel-overview .guide-cover-copy{position:relative;z-index:1}
+.travel-overview .guide-body{background:#edf2ed}
+.travel-overview .quick-facts span{background:#dce7dd}
+.travel-overview .eyebrow,.travel-overview .info-number{color:#486653}
+.travel-overview .info-card,.travel-overview .info-card+.info-card{background:#f8faf6;color:#193e34}
+.travel-overview .info-card.money-card{background:#294e40;color:#f7faf5}
+.travel-overview .money-card .info-number,.travel-overview .money-card .rate-number{color:#d9ead5}
+.travel-overview .money-card .guide-icon{background:#426756;color:#edf5e8}
+.travel-overview .info-card.language-card{background:#d5e2d2;color:#193e34}
+.travel-overview .guide-icon,.travel-overview .language-card .guide-icon{background:#bdcfbb;color:#244c3b}
+.travel-overview .phrase-list>div{background:#edf3e9}
+.travel-overview .phrase-list>div:nth-child(2){background:#bfd1bc}
+.travel-overview .phrase-list dd{color:#385743}
+.travel-overview .language-card .info-source{border-color:#a8bfa8}
+.travel-overview .budget-panel{background:#e2ebe0;border-color:#c4d3c1}
+.travel-overview .budget-total{background:#c6d8c2}
+.travel-overview .budget-items>div{background:#f3f7ef;border-top-color:#a3b99e}
+.travel-overview .budget-items>div:first-child{border-top-color:#517351}
+.travel-overview .budget-items>div:nth-child(2n){background:#d5e2cf}
+.travel-overview .budget-details{border-color:#a6bda4}
+/* Warm neutrals match the site; orange remains a small accent. */
+.travel-overview,.travel-overview .guide-body{background:#f5f3eb}
+.travel-overview .guide-cover{background:#eae6d9}
+.travel-overview .guide-cover:after{inset:24px 28px 24px auto;width:38%;background:url('../images/vietnam-flag.svg') center/contain no-repeat;opacity:.055}
+.travel-overview .guide-cover-copy{max-width:760px}
+.travel-overview .quick-facts span{background:#ebece2}
+.travel-overview .eyebrow{color:var(--muted)}
+.travel-overview .info-number{color:var(--orange)}
+.travel-overview .info-card,.travel-overview .info-card+.info-card{background:#fffef9;color:var(--ink)}
+.travel-overview .info-card.money-card{background:#f0eee3;color:var(--ink)}
+.travel-overview .info-card.language-card{background:#f5f2e8;color:var(--ink)}
+.travel-overview .info-card h3,.travel-overview .flight-list dd,.travel-overview .phrase-list dt{color:var(--ink)}
+.travel-overview .info-card>p,.travel-overview .money-card>p,.travel-overview .money-card .info-small,.travel-overview .money-card .info-source,.travel-overview .flight-list dt{color:var(--muted)}
+.travel-overview .money-card .info-number,.travel-overview .money-card .rate-number{color:var(--orange)}
+.travel-overview .guide-icon,.travel-overview .money-card .guide-icon,.travel-overview .language-card .guide-icon{background:#f0e5d8;color:var(--orange)}
+.travel-overview .exchange-display{border-color:#d6dbcd}
+.travel-overview .exchange-display>span:first-child,.travel-overview .exchange-tag{color:var(--muted)}
+.travel-overview .phrase-list>div{background:#fffdf7}
+.travel-overview .phrase-list>div:nth-child(2){background:#e9e9dd}
+.travel-overview .phrase-list dd{color:var(--muted)}
+.travel-overview .info-card .info-source,.travel-overview .money-card .info-source,.travel-overview .language-card .info-source,.travel-overview .flight-list{border-color:#d6dbcd}
+.travel-overview .budget-panel{background:#faf9f3;border-color:#d9dfd3}
+.travel-overview .budget-total{background:#eceee3}
+.travel-overview .budget-items>div{background:#f2f1e8;border-top-color:var(--orange)}
+.travel-overview .budget-items>div:first-child{border-top-color:var(--orange)}
+.travel-overview .budget-items>div:nth-child(2n){background:#edeee3}
+.travel-overview .budget-details{border-color:#cdd5c5}
+@media(max-width:760px){.travel-overview .guide-cover:after{width:42%;right:12px;opacity:.035}}
+/* Slightly larger site identity; experience numbers share the title line. */
+.brand{font-size:20px}
+.brand-mark{width:32px;height:32px;font-size:17px}
+.experience-body h3 .experience-number{display:inline-block;font-size:14px;font-weight:700;letter-spacing:1px;color:var(--orange);margin-right:9px;vertical-align:baseline}
+@media(max-width:760px){.brand{font-size:17px}}
+/* Transport references remain secondary to the practical advice. */
+.tips-grid .tip-panel .source-link{font-size:12px;line-height:1.8;color:var(--muted);margin-top:18px}

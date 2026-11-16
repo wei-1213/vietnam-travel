@@ -1,0 +1,463 @@
+[
+    {
+        "slug":  "ha-noi",
+        "name":  "河內",
+        "vi":  "Hà Nội",
+        "region":  "north",
+        "regionName":  "北越",
+        "eyebrow":  "01 / NORTHERN VIETNAM",
+        "cover":  "ha-noi-selected-cover.jpg",
+        "coverAlt":  "河內火車街兩側的彩色店家、綠意與鐵軌",
+        "coverCaption":  "▲鐵軌穿過彩色街屋，河內的街頭風景在巷弄間展開。",
+        "tags":  [
+                     "湖畔散步",
+                     "街頭日常",
+                     "傳統表演"
+                 ]
+    },
+    {
+        "slug":  "ha-long",
+        "name":  "下龍灣",
+        "vi":  "Hạ Long",
+        "region":  "north",
+        "regionName":  "北越",
+        "eyebrow":  "01 / NORTHERN VIETNAM",
+        "cover":  "ha-long-selected-cover.jpg",
+        "coverAlt":  "下龍灣藍天白雲、碧綠海水、石灰岩島嶼與遊船全景",
+        "coverCaption":  "▲藍天白雲下，碧綠海水與錯落岩島展現下龍灣的壯麗風景。",
+        "tags":  [
+                     "海灣遊船",
+                     "洞穴探訪",
+                     "水上體驗"
+                 ],
+        "intro":  "位於越南北部廣寧沿海，下龍灣的風景是在海上慢慢展開的：一座座石灰岩島嶼、島間水道，以及藏在岩壁裡的洞穴。選好一條適合的遊船路線，坐在甲板看風景，也可以把步行與划船安排進去。",
+        "note":  "先挑遊船路線，再決定洞穴與水上活動；不需要把所有體驗排進同一天。",
+        "source":  "https://vietnam.travel/place-to-go/red-river-delta/ha-long/",
+        "sourceTitle":  "Vietnam Tourism：Ha Long",
+        "experiences":  [
+                            {
+                                "id":  "cruise",
+                                "name":  "海灣遊船",
+                                "vi":  "Du thuyền Hạ Long",
+                                "image":  "ha-long-cruise.jpg",
+                                "alt":  "夕陽下的下龍灣遊船、甲板與遠方岩島",
+                                "caption":  "▲在船上，看岩島與天色慢慢變化。",
+                                "intro":  "遊船是欣賞海灣的主要方式，沿途能看見水面、岩島與不同角度的海岸景色。日間與過夜行程各有節奏，實際停靠點依船公司與核准路線而定。",
+                                "reason":  "喜歡看風景的家人可以待在船上，也能選擇附帶靠岸活動的路線。",
+                                "tip":  "先問清楚上下船方式、救生衣、用餐及是否需要轉乘小船；容易暈船者可選較短行程，天氣不佳時依業者與管理單位安排調整。",
+                                "source":  "https://vietnam.travel/things-to-do/what-to-do-in-ha-long-bay/",
+                                "sourceTitle":  "官方：What to Do in Ha Long Bay"
+                            },
+                            {
+                                "id":  "cave",
+                                "name":  "洞穴參觀：驚訝洞",
+                                "vi":  "Hang Sửng Sốt",
+                                "image":  "ha-long-sung-sot.jpg",
+                                "alt":  "驚訝洞內的鐘乳石、岩壁與步道燈光",
+                                "caption":  "▲驚訝洞的岩壁與鐘乳石景觀。",
+                                "intro":  "驚訝洞是下龍灣的洞穴遊覽選擇之一，岩石形成的空間與鐘乳石，讓海灣旅行多了一段走進地形內部的體驗。是否停靠請依實際航線確認。",
+                                "reason":  "從海上看島嶼後，再從洞穴裡看岩石紋理，風景的尺度會很不一樣。",
+                                "tip":  "洞穴步道可能有階梯與潮濕路面；長輩、幼童或行動不便者，先確認動線與能否留船休息。",
+                                "source":  "https://vietnam.travel/place-to-go/red-river-delta/ha-long/",
+                                "sourceTitle":  "官方：Ha Long 洞穴介紹"
+                            },
+                            {
+                                "id":  "kayak",
+                                "name":  "獨木舟或竹筏體驗",
+                                "vi":  "Chèo kayak / Thuyền nan",
+                                "image":  "ha-long-kayak.jpg",
+                                "alt":  "下龍灣岩壁前的水域與獨木舟活動景觀",
+                                "caption":  "▲水上活動範圍與路線依當日安排。",
+                                "intro":  "離開大船後，獨木舟與有人划行的小船能帶旅客近看岩壁與水道。參加方式與開放水域不同，訂船時先確認是否包含這項活動。",
+                                "reason":  "從接近水面的高度看島嶼，適合想在純看風景之外增加一點參與感的人。",
+                                "tip":  "全程穿妥合身救生衣；詢問年齡、身高、健康與天候限制。不想自行划槳可問是否有船伕划行選擇，無合適方案就略過。",
+                                "source":  "https://vietnam.travel/things-to-do/what-to-do-in-ha-long-bay/",
+                                "sourceTitle":  "官方：海灣水上體驗"
+                            }
+                        ],
+        "itineraryTitle":  "一天看海灣，把節奏交給船程",
+        "itinerary":  [
+                          [
+                              "出發前",
+                              "先確認船與路線",
+                              "核對碼頭、集合方式、餐食與停靠項目，留出接駁與上下船緩衝。"
+                          ],
+                          [
+                              "航行中",
+                              "看岩島，選一個靠岸活動",
+                              "在甲板看風景，再按家人體力選洞穴或水上活動，不必每站都參加。"
+                          ],
+                          [
+                              "回港後",
+                              "晚餐與休息",
+                              "不要接著安排緊湊長途移動；若住船，翌日安排依船公司行程調整。"
+                          ]
+                      ],
+        "transport":  [
+                          "可由河內陸路前往下龍灣周邊，再依行程在指定碼頭登船；訂購前核對接送範圍與行李規定。",
+                          "碼頭、航線及接駁方式須以船公司確認單為準，不以照片判斷登船地點。",
+                          "天氣會影響海上活動，請確認取消、改期與退費條件；本頁不列未確認的車資或船價。"
+                      ],
+        "family":  [
+                       "甲板、舷梯與接駁小船需特別留意幼童；上下船時讓手保持空閒。",
+                       "洞穴與水上活動可分開取捨，先問是否有不參加活動的休息安排。",
+                       "準備防曬、飲水與防滑鞋，並依當天天候決定活動。"
+                   ]
+    },
+    {
+        "slug":  "da-nang",
+        "name":  "峴港",
+        "vi":  "Đà Nẵng",
+        "region":  "central",
+        "regionName":  "中越",
+        "eyebrow":  "02 / CENTRAL VIETNAM",
+        "cover":  "da-nang-selected-cover.jpg",
+        "coverAlt":  "藍天下的峴港海岸、沙灘與沿海城市建築",
+        "coverCaption":  "▲蔚藍海岸與城市並肩延伸，峴港的假期從海風開始。",
+        "tags":  [
+                     "海邊散步",
+                     "山上風景",
+                     "市場小吃"
+                 ],
+        "intro":  "位於越南中部海岸，峴港可以有兩種步調：在美溪海灘看海、到漢市場逛吃，也能留一天往巴拿山走。喜歡海邊又不想整天待在飯店的人，可以把這裡當作旅行的起點。",
+        "note":  "市區與海灘排一天，巴拿山另外留一天，移動會更從容。",
+        "source":  "https://vietnam.travel/place-to-go/south-central-coast-central-highlands/da-nang/",
+        "sourceTitle":  "Vietnam Tourism：Da Nang",
+        "experiences":  [
+                            {
+                                "id":  "my-khe",
+                                "name":  "美溪海灘",
+                                "vi":  "Bãi biển Mỹ Khê",
+                                "image":  "da-nang-my-khe.jpg",
+                                "alt":  "美溪海灘的棕櫚樹、沙灘與藍色海面",
+                                "caption":  "▲美溪海灘，留一段時間看海。",
+                                "intro":  "美溪海灘是峴港海岸旅行的代表地點。沿著沙岸散步，看看海浪與岸邊生活，不下水也能安排一段海邊時間。",
+                                "reason":  "活動可以很簡單，適合安排在抵達後或市區行程之間。",
+                                "tip":  "是否下水以現場旗號、救生人員與海況為準；幼童要有人近距離陪同，玩沙後也要預留清潔與休息時間。",
+                                "source":  "https://vietnam.travel/place-to-go/south-central-coast-central-highlands/da-nang/",
+                                "sourceTitle":  "官方：Da Nang／My Khe Beach"
+                            },
+                            {
+                                "id":  "ba-na",
+                                "name":  "巴拿山佛手橋",
+                                "vi":  "Bà Nà Hills / Cầu Vàng",
+                                "image":  "da-nang-ba-na.jpg",
+                                "alt":  "巴拿山黃金橋與托住橋面的巨大手掌造景",
+                                "caption":  "▲巴拿山的黃金橋景觀。",
+                                "intro":  "巨大的佛手托起金色橋身，在山林間勾勒出巴拿山醒目的風景。搭乘纜車上山後，可以沿著佛手橋漫步，欣賞周圍山景，再慢慢逛園區；建議獨立安排一天。",
+                                "reason":  "想在海岸假期裡加入山景與建築造景，可以選這一天換換場景。",
+                                "tip":  "上山前看天氣並準備外套、雨具與好走的鞋；纜車、設施與套票內容會調整，請向官方確認，不以舊照片判斷當日能見度。",
+                                "source":  "https://www.vietnam.travel/things-to-do/explore-ba-na-hills",
+                                "sourceTitle":  "官方：How to explore and enjoy Ba Na Hills"
+                            },
+                            {
+                                "id":  "han-market",
+                                "name":  "漢市場",
+                                "vi":  "Chợ Hàn",
+                                "image":  "da-nang-market-provided.jpg",
+                                "alt":  "漢市場內的商店、服飾與購物人潮",
+                                "caption":  "▲漢市場是峴港知名的購物好去處，逛小吃也挑伴手禮。",
+                                "intro":  "漢市場是峴港的購物選擇之一，適合看看地方商品、衣物與伴手禮。逛街時先比一比，再決定要帶什麼回家。",
+                                "reason":  "和海邊活動交錯安排，能看見不同的市區生活。",
+                                "tip":  "先確認價格、數量與商品內容，留意人潮與隨身物品；食品攜帶與入境限制需另外查證，不因是伴手禮就假設可以帶回台灣。",
+                                "source":  "https://danangfantasticity.com/en/shopping-2/han-market-2",
+                                "sourceTitle":  "峴港官方旅遊入口：Han Market"
+                            }
+                        ],
+        "itineraryTitle":  "海邊與市區一天，巴拿山另排一天",
+        "itinerary":  [
+                          [
+                              "第 1 天上午",
+                              "漢市場慢慢逛",
+                              "先逛市場與用餐，午後回住宿休息，避免把戶外活動排得太滿。"
+                          ],
+                          [
+                              "第 1 天傍晚",
+                              "美溪海灘散步",
+                              "依海況選擇玩沙或沿岸走走，再找地方吃晚餐。"
+                          ],
+                          [
+                              "第 2 天",
+                              "巴拿山一日安排",
+                              "核對交通與票券內容，依體力選園區項目，回市區後以休息為主。"
+                          ]
+                      ],
+        "transport":  [
+                          "可搭機抵達峴港國際機場；市內可依行李及同行人數安排計程車、叫車或住宿接送。",
+                          "巴拿山屬市區外行程，事先確認來回接送與集合地點，避免只安排去程。",
+                          "可與會安搭配旅行，但不要把兩地的所有景點與巴拿山擠在同一天；車程及費用依業者確認。"
+                      ],
+        "family":  [
+                       "海灘活動依海況取捨，不把能下水視為保證。",
+                       "巴拿山可能需要較多步行與排隊，先詢問推車、輪椅與同行長輩的動線。",
+                       "市場、海邊與山上分別準備適合的衣物、飲水與休息安排。"
+                   ]
+    },
+    {
+        "slug":  "hoi-an",
+        "name":  "會安",
+        "vi":  "Hội An",
+        "region":  "central",
+        "regionName":  "中越",
+        "eyebrow":  "02 / CENTRAL VIETNAM",
+        "cover":  "hoi-an-selected-cover.jpg",
+        "coverAlt":  "會安古鎮藍調夜色中的黃色街屋、彩色燈籠與石板街道",
+        "coverCaption":  "▲藍調夜色襯著黃牆與彩色燈籠，會安古鎮亮起溫暖街景。",
+        "tags":  [
+                     "古鎮散步",
+                     "燈籠夜景",
+                     "水鄉體驗"
+                 ],
+        "intro":  "位於越南中部的會安，適合用走路的速度認識。先逛黃牆老屋與小店，等傍晚的燈籠亮起；想換個風景，再到錦清一帶坐竹籃船，看水道和水椰林。",
+        "note":  "古鎮散步留到傍晚也很好；竹籃船安排在另一段時間，不必來回趕路。",
+        "source":  "https://danangfantasticity.com/en/see-and-do/hoi-an-ancient-town",
+        "sourceTitle":  "峴港官方旅遊入口：Hoi An Ancient Town",
+        "experiences":  [
+                            {
+                                "id":  "old-town",
+                                "name":  "古鎮散步",
+                                "vi":  "Phố cổ Hội An",
+                                "image":  "hoi-an-old-town.jpg",
+                                "alt":  "會安古鎮街道兩側的黃色老屋、店家與燈籠",
+                                "caption":  "▲黃牆、屋簷與街巷，適合慢慢看。",
+                                "intro":  "會安古鎮保留了昔日港口聚落的街道與建築景觀，也是 UNESCO 世界遺產。選幾條喜歡的巷子走走，注意屋簷、門窗與街邊小店。",
+                                "reason":  "不用走遍所有建築，也能從街道細節認識這裡。",
+                                "tip":  "出發前確認古鎮參觀票適用的建築與進入規定；石板、階梯及人潮可能影響推車與輪椅通行。",
+                                "source":  "https://whc.unesco.org/en/list/948/",
+                                "sourceTitle":  "UNESCO：Hoi An Ancient Town"
+                            },
+                            {
+                                "id":  "lanterns",
+                                "name":  "燈籠夜景",
+                                "vi":  "Đèn lồng Hội An",
+                                "image":  "hoi-an-lantern-night-close.jpg",
+                                "alt":  "夜色中點亮的紅色燈籠近景",
+                                "caption":  "▲紅燈籠在夜色中亮起，暖光點綴會安古鎮。",
+                                "intro":  "燈籠是會安街景裡很醒目的色彩。傍晚至入夜，可沿古鎮與河岸看看街道燈光；若想參加特定節慶，需另外確認日期與現場安排。",
+                                "reason":  "白天與夜晚各有不同光線，可以在晚餐前後安排一段短散步。",
+                                "tip":  "夜間靠近水邊時牽好孩子，先約定集合點；不保證每天都有相同活動或照片中的人潮與燈景。",
+                                "source":  "https://danangfantasticity.com/en/see-and-do/hoi-an-ancient-town",
+                                "sourceTitle":  "官方：會安古鎮與燈籠介紹"
+                            },
+                            {
+                                "id":  "basket-boats",
+                                "name":  "錦清竹籃船",
+                                "vi":  "Thuyền thúng Cẩm Thanh",
+                                "image":  "hoi-an-basket-boat-provided.jpg",
+                                "alt":  "水道上正在旋轉表演的彩色竹籃船",
+                                "caption":  "▲宛如「水上咖啡杯」的竹籃船，轉出會安水鄉的熱鬧風景。",
+                                "intro":  "錦清的水椰林與水道，可以搭乘圓形竹籃船體驗。它和古鎮散步是不同路線，需另外安排交通與活動時間。",
+                                "reason":  "從街巷轉到水道，適合對地方生活與自然環境有興趣的人。",
+                                "tip":  "穿好救生衣，先問清楚路線、乘坐人數與是否有旋轉表演；不想旋轉要在上船前說明，年齡及健康限制向業者確認。",
+                                "source":  "https://danangfantasticity.com/en/places-to-go/bay-mau-coconut-forest",
+                                "sourceTitle":  "官方：Bay Mau Coconut Forest"
+                            }
+                        ],
+        "itineraryTitle":  "白天看水鄉，傍晚走進古鎮",
+        "itinerary":  [
+                          [
+                              "上午",
+                              "錦清竹籃船",
+                              "選擇符合同行者需求的乘船方式，結束後安排午餐與休息。"
+                          ],
+                          [
+                              "下午",
+                              "古鎮小巷散步",
+                              "挑幾條街與有興趣的建築，不把所有參觀點一次排滿。"
+                          ],
+                          [
+                              "傍晚至夜間",
+                              "晚餐與燈籠街景",
+                              "沿熟悉的路線看夜景，預留返回住宿或搭車的時間。"
+                          ]
+                      ],
+        "transport":  [
+                          "可經峴港機場抵達中越，再安排車輛前往會安；預約時確認接送地址與行李空間。",
+                          "古鎮與錦清水椰林不在同一散步範圍，先安排兩者之間的交通。",
+                          "車輛進出與行人區域以現場管理為準，接送點可能需要步行，不列未確認的交通費或車程。"
+                      ],
+        "family":  [
+                       "古鎮白天步行與夜間人潮都可能讓孩子疲累，午間保留休息。",
+                       "靠近河岸及上船時照顧幼童，船程與表演都可以選擇不參加。",
+                       "遇雨或積水先確認現場可通行範圍，避免只照照片安排路線。"
+                   ]
+    },
+    {
+        "slug":  "ho-chi-minh-city",
+        "name":  "胡志明市",
+        "vi":  "Thành phố Hồ Chí Minh",
+        "region":  "south",
+        "regionName":  "南越",
+        "eyebrow":  "03 / SOUTHERN VIETNAM",
+        "cover":  "ho-chi-minh-selected-cover.jpg",
+        "coverAlt":  "暮色中的胡志明市高樓、西貢河與城市燈光",
+        "coverCaption":  "▲夕色映著西貢河，胡志明市的高樓與街道逐漸亮起。",
+        "tags":  [
+                     "歷史建築",
+                     "市場尋味",
+                     "都會散步"
+                 ],
+        "intro":  "位於越南南部的胡志明市，把老建築、市場與現代街景放在同一座城市裡。從中央郵局開始，逛一段濱城市場，再到阮惠步行街看燈光與人群，適合喜歡吃逛和城市散步的旅人。",
+        "note":  "市中心用短路線串連，午後安排室內休息，晚上再出門走一段。",
+        "source":  "https://vietnam.travel/place-to-go/southeastern-vietnam/ho-chi-minh-city/",
+        "sourceTitle":  "Vietnam Tourism：Ho Chi Minh City",
+        "experiences":  [
+                            {
+                                "id":  "post-office",
+                                "name":  "中央郵局",
+                                "vi":  "Bưu điện Trung tâm Sài Gòn",
+                                "image":  "ho-chi-minh-post-office-lilys.jpg",
+                                "alt":  "中央郵局的黃色外牆、拱門與中央鐘面",
+                                "caption":  "▲鮮黃色外牆與拱門，勾勒中央郵局的經典樣貌。",
+                                "intro":  "中央郵局是市中心的代表性歷史建築之一。造訪時可觀察外觀與建築細節，與周邊街區一起安排短程散步。",
+                                "reason":  "適合喜歡建築、拍照或想寄張明信片的人，作為一天行程的起點。",
+                                "tip":  "它也是公共服務空間，拍照時別阻擋動線；可進入範圍、郵務與商店服務以現場為準。",
+                                "source":  "https://vietnam.travel/place-to-go/southeastern-vietnam/ho-chi-minh-city/",
+                                "sourceTitle":  "官方：市中心代表地標"
+                            },
+                            {
+                                "id":  "ben-thanh",
+                                "name":  "濱城市場",
+                                "vi":  "Chợ Bến Thành",
+                                "image":  "ho-chi-minh-ben-thanh.jpg",
+                                "alt":  "濱城市場的鐘塔入口與前方街道",
+                                "caption":  "▲先看市場入口，再慢慢逛進攤位。",
+                                "intro":  "濱城市場是胡志明市的經典購物地點，可把逛商品、找小吃與認識街區排在一起。每個攤位的價格與商品不同，先詢問再購買。",
+                                "reason":  "對吃東西、逛街與挑伴手禮有興趣的人，都能自己挑一段逛。",
+                                "tip":  "確認價格與份量，留意找零和個人物品；食品是否可攜回台灣，需要另外查詢入境規定。",
+                                "source":  "https://vietnam.travel/place-to-go/southeastern-vietnam/ho-chi-minh-city/",
+                                "sourceTitle":  "官方：Ben Thanh Market"
+                            },
+                            {
+                                "id":  "nguyen-hue",
+                                "name":  "阮惠步行街",
+                                "vi":  "Phố đi bộ Nguyễn Huệ",
+                                "image":  "ho-chi-minh-nguyen-hue.jpg",
+                                "alt":  "阮惠步行街上的行人與遠處市政建築",
+                                "caption":  "▲城市散步的一站，活動與人潮依日期不同。",
+                                "intro":  "阮惠步行街位於市中心，從市政建築一帶往河岸延伸。白天看建築，入夜後則可觀察城市燈光與街頭生活。",
+                                "reason":  "適合放在晚餐前後，走累了就縮短路線，不必趕著完成固定景點。",
+                                "tip":  "人潮較多時先約集合點，過周邊道路仍須注意車流；節慶布置與臨時封路依現場公告。",
+                                "source":  "https://hello.hochiminhcity.gov.vn/en/discover/pho-di-bo-nguyen-hue",
+                                "sourceTitle":  "胡志明市官方：Nguyen Hue Walking Street"
+                            }
+                        ],
+        "itineraryTitle":  "用一天，走過城市的白天與夜晚",
+        "itinerary":  [
+                          [
+                              "上午",
+                              "中央郵局與周邊",
+                              "趁體力充足時看建築，拍照後找地方用餐。"
+                          ],
+                          [
+                              "午後",
+                              "濱城市場與室內休息",
+                              "只逛有興趣的區域，避開把整天排成連續步行。"
+                          ],
+                          [
+                              "晚餐後",
+                              "阮惠步行街",
+                              "沿短路線看街景與燈光，再安排回住宿的交通。"
+                          ]
+                      ],
+        "transport":  [
+                          "可搭機抵達新山一國際機場，再依住宿位置選擇計程車、叫車或接送。",
+                          "市中心幾個體驗可分段步行搭配乘車，請按天氣、路況與家人體力調整。",
+                          "機場接送與市區車資依實際業者確認；訂車前確認車型、人數、行李及兒童座椅需求。"
+                      ],
+        "family":  [
+                       "周邊道路車流多，過街看號誌、確認來車並一起行動。",
+                       "市場與步行街人潮中先約集合點，孩子與長輩不必跟著逛完整條街。",
+                       "準備飲水與雨具，午後安排室內休息，再視精神狀況決定夜間活動。"
+                   ]
+    },
+    {
+        "slug":  "phu-quoc",
+        "name":  "富國島",
+        "vi":  "Phú Quốc",
+        "region":  "south",
+        "regionName":  "南越",
+        "eyebrow":  "03 / SOUTHERN VIETNAM",
+        "cover":  "phu-quoc-selected-cover.jpg",
+        "coverAlt":  "富國島藍天下的椰樹、草傘沙灘與海景",
+        "coverCaption":  "▲椰樹與草傘映著藍天，把假期留給富國島的海風。",
+        "tags":  [
+                     "海島風景",
+                     "度假住宿",
+                     "跨海纜車"
+                 ],
+        "intro":  "位於越南西南外海，富國島適合把假期排得鬆一點。沙灘、泳池和海景可以輪流安排，想出門時再往南端搭香島纜車。選對住宿位置，比每天換好幾個景點更影響這趟旅行的步調。",
+        "note":  "選一個住宿據點，把沙灘、飯店休息與南端行程分開安排。",
+        "source":  "https://vietnam.travel/place-to-go/mekong-delta/phu-quoc/",
+        "sourceTitle":  "Vietnam Tourism：Phu Quoc",
+        "experiences":  [
+                            {
+                                "id":  "sao-beach",
+                                "name":  "沙灘時間：星灘",
+                                "vi":  "Bãi Sao",
+                                "image":  "phu-quoc-sao-bright.jpg",
+                                "alt":  "星灘的白沙、淺色海水與遠方海岸",
+                                "caption":  "▲星灘的沙岸景觀，海色依天候變化。",
+                                "intro":  "星灘是富國島的海灘選擇之一。可以安排玩沙、看海或在岸邊休息；實際海色、海浪與整潔狀況會隨天氣與季節不同。",
+                                "reason":  "不用參加付費活動，也能把一段時間留給自然風景。",
+                                "tip":  "是否游泳依現場海況與安全標示，留意日曬、遮蔭及洗手間需求；不要把照片中的平靜海面當成每日保證。",
+                                "source":  "https://vietnam.travel/place-to-go/mekong-delta/phu-quoc/",
+                                "sourceTitle":  "官方：Sao Beach"
+                            },
+                            {
+                                "id":  "resort",
+                                "name":  "度假住宿與泳池時光",
+                                "vi":  "Nghỉ dưỡng",
+                                "image":  "phu-quoc-resort-provided.jpg",
+                                "alt":  "富國島度假飯店、棕櫚樹與泳池景觀",
+                                "caption":  "▲棕櫚樹與泳池交織的熱帶度假住宿，讓人想慢下來享受假期。",
+                                "intro":  "海島旅行不必每天都在外面。選一間符合預算與需求的住宿，把早餐、泳池與休息排進行程，也是富國島的玩法。可依喜歡的沙灘與同行者需求挑選據點，不必每天搬行李。",
+                                "reason":  "同行若有幼童或長輩，固定據點與休息時間能減少頻繁搬行李。",
+                                "tip":  "預訂前確認房型、兒童政策、泳池深度與開放狀況、機場接送及餐食；不因照片有泳池就假設所有設施都包含在房價內。",
+                                "source":  "https://vietnam.travel/place-to-go/mekong-delta/phu-quoc/",
+                                "sourceTitle":  "官方：富國島度假概況；住宿安排為編輯建議"
+                            },
+                            {
+                                "id":  "cable-car",
+                                "name":  "香島跨海纜車",
+                                "vi":  "Cáp treo Hòn Thơm",
+                                "image":  "phu-quoc-cable-car.jpg",
+                                "alt":  "香島跨海纜車、藍綠色海面與島嶼",
+                                "caption":  "▲從空中看海灣與島嶼。",
+                                "intro":  "香島纜車連接富國島南端與香島一帶，行進間能看見島嶼與海上風景。票種、包含設施與當日運行安排需在出發前確認。",
+                                "reason":  "想從不同高度看海景，可以把這段行程獨立安排，不與全島景點來回奔波。",
+                                "tip":  "先確認停駛、天候與回程安排；怕高或容易暈動的同行者可選擇不搭。套票不等於所有活動皆適合每個年齡。",
+                                "source":  "https://vietnam.travel/place-to-go/mekong-delta/phu-quoc/",
+                                "sourceTitle":  "官方：Ride the cable car to Hon Thom"
+                            }
+                        ],
+        "itineraryTitle":  "三天兩夜，保留一半時間給休息",
+        "itinerary":  [
+                          [
+                              "第 1 天",
+                              "抵達與住宿休息",
+                              "辦理入住、熟悉飯店與周邊，先不排緊湊跨島移動。"
+                          ],
+                          [
+                              "第 2 天",
+                              "南端纜車與海景",
+                              "核對運行與票券後出發，回住宿後以晚餐和休息為主。"
+                          ],
+                          [
+                              "第 3 天",
+                              "選一段沙灘時間",
+                              "依住宿位置、天氣與航班決定是否去星灘；若時間不夠，就留在住宿附近休息。"
+                          ]
+                      ],
+        "transport":  [
+                          "可搭機抵達富國島國際機場；也有從越南本土港口前往的船運選擇，實際航線與天候安排需確認。",
+                          "島上景點分散，預訂住宿時先看位置，再規劃機場、南端纜車與沙灘之間的接送。",
+                          "不以景點數量決定行程；車程、航班、船班與費用以實際業者資訊為準。"
+                      ],
+        "family":  [
+                       "泳池與海灘都需近距離看顧孩子，先確認救生與設施狀況。",
+                       "多留室內休息與補水時間，日曬強時縮短戶外行程。",
+                       "把入住、退房與回程接送一起規劃，最後一天避免安排太遠的景點。"
+                   ]
+    }
+]
